@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+const mapStateToProps = reduxState => ({
+    reduxState,
+});
+
 class Details extends Component {
     render(){
         return(
